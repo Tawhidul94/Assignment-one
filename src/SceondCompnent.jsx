@@ -3,7 +3,14 @@ import React from "react";
 const SceondCompnent = ({sendID,sendName,sendDepartment}) =>{
 
     const  OnclickEvent =()=>{
-        alert ("well come every one")
+        const data=[
+            {
+                id:"1234",
+                name:"kamrul islam",
+                differtment:"software engenier"
+            }
+        ]
+        alert("ID :" + data[0].id + "  "+"Name :"+ data[0].name + "  "+"differtment :"+data[0].differtment)
            
 
         
